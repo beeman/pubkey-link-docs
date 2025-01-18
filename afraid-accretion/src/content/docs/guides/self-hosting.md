@@ -104,18 +104,17 @@ The Docker images are hosted on [GHCR](https://github.com/pubkeyapp/pubkey-link/
 
 ### Main branch (Recommended)
 
-Most instances probably want to use the `main` branch which is updated less often and more stable.
-
-`ghcr.io/pubkeyapp/pubkey-link:latest`
+> Most instances probably want to use the `main` branch which is updated less often and more stable.
+>
+> `ghcr.io/pubkeyapp/pubkey-link:latest`
 
 ### Dev branch
 
-If you want to run the leatest and greatest, or you like living on the edge, you can run the `dev` branch.
-
-`ghcr.io/pubkeyapp/pubkey-link:dev`
-
-
-After you start the container, the links on how to access the UI will be logged in the terminal.
+> If you want to run the latest and greatest, or you like living on the edge, you can run the `dev` branch.
+> 
+> `ghcr.io/pubkeyapp/pubkey-link:dev`
+> 
+> After you start the container, the links on how to access the UI will be logged in the terminal.
 
 ### Northflank Installation
 

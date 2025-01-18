@@ -7,6 +7,11 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'PubKey',
+			logo: {
+				light: './src/assets/branding/logo.svg',
+				dark: './src/assets/branding/logo-white-txt.svg',
+				replacesTitle: true,
+			},
 			social: {
 				twitter: 'https://x.com/PubKeyApp',
 				github: 'https://github.com/pubkeyapp',
