@@ -1,5 +1,5 @@
 ---
-title: "PubKey-Link Self Hosting"
+title: "Self Hosting"
 ---
 
 ## Self-hosting instructions

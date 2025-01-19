@@ -1,3 +1,3 @@
 ---
-title: "PubKey-Link Features"
+title: "Features"
 ---

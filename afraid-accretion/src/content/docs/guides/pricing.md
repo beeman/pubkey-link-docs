@@ -1,5 +1,5 @@
 ---
-title: PubKey-Link Pricing Guide
+title: Pricing Guide
 ---
 
 
