@@ -19,14 +19,18 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+
+					label: 'Self-Hosting',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Self-Hosting', slug: 'guides/self-hosting' },
-						{ label: 'Pricing', slug: 'guides/pricing' },
-						{ label: 'Features', slug: 'guides/features' },
+						{ label: 'Get Started', slug: 'self-hosting/start'},
+						{ label: 'Step 0: Preparation', slug: 'self-hosting/prep'},
+						{ label: 'Step 1: Installation', slug: 'self-hosting/install'},
+						{ label: 'Step 2: Configuration', slug: 'self-hosting/config'},
 					],
 				},
+				{ label: 'Features', slug: 'guides/features' },
+				{ label: 'Pricing', slug: 'guides/pricing' },
+				
 				// {
 				// 	label: 'Reference',
 				// 	autogenerate: { directory: 'reference' },
