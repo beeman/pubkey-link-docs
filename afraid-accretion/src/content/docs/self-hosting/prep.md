@@ -66,8 +66,6 @@ AUTH_DISCORD_CLIENT_SECRET |`XYZ_ABC-123_456`                   | Discord OAuth2
 CLOAK_MASTER_KEY           |`k1.aesgcm256.abc-defghi-jk=`       | Cloak master key as mentioned above.
 CLOAK_KEYCHAIN             |`v1.aesgcm256.123abc.123-abc.defgi` | Cloak keychain as mentioned above.
 DATABASE_URL               |`postgres://user:pass@host:5432/db` | Postgres connection string
-HOST                       |`0.0.0.0`                           | Network interface the container listens on. You probably want `0.0.0.0` for most setups. 
 JWT_SECRET                 |`some random string`                | The JWT secret, you can generate a good random string with `openssl rand -hex 32`
 REDIS_URL                  |`redis://host:6379`                 | Redis connection string.
-SESSION_SECRET             |`some random string`                | The JWT secret, you can generate a good random string with `openssl rand -hex 32`
-SOLANA_MAINNET_ENDPOINT    | `https://mainnet.helius-rpc.com/?api-key=<API KEY>` | The RPC endpoint for Mainnet.
+SOLANA_MAINNET_ENDPOINT    | `https://mainnet.helius-rpc.com/?api-key=<API KEY>` | The RPC endpoint for Mainnet. You can start with the free one from [Helius](https://dashboard.helius.dev/)
